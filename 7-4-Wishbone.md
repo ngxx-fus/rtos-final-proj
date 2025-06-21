@@ -63,7 +63,7 @@ Cơ chế hoạt động gồm 2 tín hiệu chính:
 
 **Slave** cũng hạ **ACK_I** xuống sau đó.
 
-![image.png](Wishbone%20216f6c033d50801e934dc7a2c190fb7d/image.png)
+![image.png](imgs/wishbone-image.png)
 
 ---
 
@@ -139,7 +139,7 @@ Kiến trúc Wishbone chủ yếu xoay quanh mô hình **MASTER – SLAVE**, do 
 | **INTERCON (Interconnect Fabric)** | Thành phần trung gian kết nối nhiều Master và Slave với nhau, có thể là bus chia sẻ, switch hoặc crossbar. | Liên kết giữa Master và Slave. Có thể là bus chung, crossbar.. |
 - **Lưu ý:** Master có thể là một vi xử lý, trong khi Slave có thể là một IP ngoại vi như SPI, LED, bộ nhớ,...
 
-![image.png](Wishbone%20216f6c033d50801e934dc7a2c190fb7d/image%201.png)
+![imgs/image.png](imgs/wishbone-image%201.png)
 
 ---
 
@@ -330,7 +330,7 @@ Tránh các hành vi không mong muốn hoặc xung đột trên bus sau khi kh�
 
 Là bước chuẩn bị cần thiết cho tất cả các loại chu kỳ bus sau đó như Classic, Block, Burst,...
 
-![image.png](Wishbone%20216f6c033d50801e934dc7a2c190fb7d/image%202.png)
+![image.png](imgs/wishbone-image%202.png)
 
 ---
 
