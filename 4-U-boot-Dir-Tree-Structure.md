@@ -139,12 +139,7 @@ Ví dụ: Các driver quan trọng mà RPi4 cần:
 - *drivers/net/smsc95xx.c* – driver mạng Ethernet (LAN9514)
 - *drivers/video/bcm2835.c* – xuất HDMI (nếu dùng U-Boot graphics)
 
-Trong repo, các driver thường có hàm reset hoặc hàm khởi ===================== WARNING ======================
-CONFIG_OF_EMBED is enabled. This option should only
-be used for debugging purposes. Please use
-CONFIG_OF_SEPARATE for boards in mainline.
-See doc/develop/devicetree/control.rst for more info.
-====================================================
+Trong repo, các driver thường có hàm reset hoặc hàm khởi
 tạo lại thiết bị, mục đích là đưa phần cứng về trạng thái ban đầu, sẵn sàng hoạt động.
 
 **driver Ethernet smsc95xx.c** trong drivers/net/smsc95xx.c — driver cho chip LAN9514 Ethernet.
