@@ -1,0 +1,4 @@
+[submodule "sourcecode"]
+	path = sourcecode
+	url = https://github.com/ngxx-fus/learn-uboot.git
+	branch = master
